@@ -34,7 +34,8 @@ The project can be run in various ways
 1.
 ```
 Azure DevOps pipeline(active until end of June 2021), currently blocked by Azure policy, have raised request for releasing it.
-To view and run, please visit https://dev.azure.com/sksmitakalita and then CBA_Automation_Framework_Working, then view pipelines, SK_Auto_Framework_CI_For_CBA
+To view and run, please visit https://dev.azure.com/sksmitakalita and 
+then CBA_Automation_Framework_Working, then view pipelines, SK_Auto_Framework_CI_For_CBA with Login Id: sk.smitakalita@gmail.com, Pwd: Superhero@123
 ```
 
 2.
