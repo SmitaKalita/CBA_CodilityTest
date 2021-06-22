@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 30.351 s <<< FAILURE! - in TestSuite
+webtests.TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "driver" is null
+
+webtests.TC02_HomePage.verifyHomePageHeader  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "driver" is null
+
+webtests.TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "driver" is null
+
+webtests.TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.utils.ExtentTS.getExtent()" is null
+
+webtests.TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.utils.ExtentTS.getExtent()" is null
+
+webtests.TC02_HomePage.verifyHomePageHeader  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.utils.ExtentTS.getExtent()" is null
+

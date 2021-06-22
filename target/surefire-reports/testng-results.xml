@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-22T20:05:01 AEST" name="Suite" finished-at="2021-06-22T20:05:31 AEST" duration-ms="29883">
+    <groups>
+      <group name="web">
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@3d74bf60]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@3d74bf60]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+        <method signature="TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard()[pri:1, instance:webtests.TC06_LeaderBoard@3c407114]" name="answerSingleQAndCheckLeaderBoard" class="webtests.TC06_LeaderBoard"/>
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@47af7f3d]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@47af7f3d]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@7c729a55]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@7c729a55]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@4567f35d]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@4567f35d]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@5ffead27]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@5ffead27]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+        <method signature="TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard()[pri:1, instance:webtests.TC06_LeaderBoard@1fa268de]" name="answerSingleQAndCheckLeaderBoard" class="webtests.TC06_LeaderBoard"/>
+      </group> <!-- web -->
+      <group name="regression">
+        <method signature="TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard()[pri:1, instance:webtests.TC06_LeaderBoard@3c407114]" name="answerSingleQAndCheckLeaderBoard" class="webtests.TC06_LeaderBoard"/>
+        <method signature="TC06_LeaderBoard.answerSingleQAndCheckLeaderBoard()[pri:1, instance:webtests.TC06_LeaderBoard@1fa268de]" name="answerSingleQAndCheckLeaderBoard" class="webtests.TC06_LeaderBoard"/>
+        <method signature="TC01_API_Test.blankDeleteKeyRequestAPITest()[pri:7, instance:com.apitest.TC01_API_Test@67d48005]" name="blankDeleteKeyRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.getRequestAPITest()[pri:1, instance:com.apitest.TC01_API_Test@67d48005]" name="getRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.incorrectDeleteKeyRequestAPITest()[pri:8, instance:com.apitest.TC01_API_Test@67d48005]" name="incorrectDeleteKeyRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" name="postRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.putRequestAPITest()[pri:4, instance:com.apitest.TC01_API_Test@67d48005]" name="putRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.putRequestToCreateDataAPITest()[pri:6, instance:com.apitest.TC01_API_Test@67d48005]" name="putRequestToCreateDataAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.validateCreatedUserThruPostAPITest()[pri:3, instance:com.apitest.TC01_API_Test@67d48005]" name="validateCreatedUserThruPostAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.validateUpdatedUserThruPutAPITest()[pri:5, instance:com.apitest.TC01_API_Test@67d48005]" name="validateUpdatedUserThruPutAPITest" class="com.apitest.TC01_API_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@3d74bf60]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@3d74bf60]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@28eaa59a]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@47af7f3d]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@47af7f3d]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@7c729a55]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@7c729a55]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@7c729a55]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+        <method signature="TC01_WelcomePage.verifyStartJourneyOfAHero()[pri:5, instance:webtests.TC01_WelcomePage@4567f35d]" name="verifyStartJourneyOfAHero" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC01_WelcomePage.verifyWelcomePageTitle()[pri:1, instance:webtests.TC01_WelcomePage@4567f35d]" name="verifyWelcomePageTitle" class="webtests.TC01_WelcomePage"/>
+        <method signature="TC02_HomePage.verifyAllBattleFieldsPresent()[pri:2, instance:webtests.TC02_HomePage@5ffead27]" name="verifyAllBattleFieldsPresent" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToOfficeCanBeAccessed()[pri:6, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldGoToOfficeCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldGoToPublicPlaceCanBeAccessed()[pri:5, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldGoToPublicPlaceCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyBattleFieldTakeTheBusCanBeAccessed()[pri:4, instance:webtests.TC02_HomePage@5ffead27]" name="verifyBattleFieldTakeTheBusCanBeAccessed" class="webtests.TC02_HomePage"/>
+        <method signature="TC02_HomePage.verifyHomePageHeader()[pri:1, instance:webtests.TC02_HomePage@5ffead27]" name="verifyHomePageHeader" class="webtests.TC02_HomePage"/>
+      </group> <!-- smoke -->
+      <group name="api">
+        <method signature="TC01_API_Test.blankDeleteKeyRequestAPITest()[pri:7, instance:com.apitest.TC01_API_Test@67d48005]" name="blankDeleteKeyRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.getRequestAPITest()[pri:1, instance:com.apitest.TC01_API_Test@67d48005]" name="getRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.incorrectDeleteKeyRequestAPITest()[pri:8, instance:com.apitest.TC01_API_Test@67d48005]" name="incorrectDeleteKeyRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" name="postRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.putRequestAPITest()[pri:4, instance:com.apitest.TC01_API_Test@67d48005]" name="putRequestAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.putRequestToCreateDataAPITest()[pri:6, instance:com.apitest.TC01_API_Test@67d48005]" name="putRequestToCreateDataAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.validateCreatedUserThruPostAPITest()[pri:3, instance:com.apitest.TC01_API_Test@67d48005]" name="validateCreatedUserThruPostAPITest" class="com.apitest.TC01_API_Test"/>
+        <method signature="TC01_API_Test.validateUpdatedUserThruPutAPITest()[pri:5, instance:com.apitest.TC01_API_Test@67d48005]" name="validateUpdatedUserThruPutAPITest" class="com.apitest.TC01_API_Test"/>
+      </group> <!-- api -->
+    </groups>
+    <test started-at="2021-06-22T20:05:01 AEST" name="APITest" finished-at="2021-06-22T20:05:31 AEST" duration-ms="29883">
+      <class name="com.apitest.TC01_API_Test">
+        <test-method signature="getRequestAPITest()[pri:1, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:01 AEST" name="getRequestAPITest" finished-at="2021-06-22T20:05:13 AEST" duration-ms="11566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestAPITest -->
+        <test-method signature="postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:13 AEST" name="postRequestAPITest" data-provider="getTestData" finished-at="2021-06-22T20:05:16 AEST" duration-ms="2247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Warrior]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestAPITest -->
+        <test-method signature="postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:16 AEST" name="postRequestAPITest" data-provider="getTestData" finished-at="2021-06-22T20:05:17 AEST" duration-ms="1774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestAPITest -->
+        <test-method signature="postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:17 AEST" name="postRequestAPITest" data-provider="getTestData" finished-at="2021-06-22T20:05:19 AEST" duration-ms="1682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cure]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestAPITest -->
+        <test-method signature="postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:19 AEST" name="postRequestAPITest" data-provider="getTestData" finished-at="2021-06-22T20:05:21 AEST" duration-ms="1689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaccine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestAPITest -->
+        <test-method signature="postRequestAPITest(java.lang.String,double)[pri:2, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:21 AEST" name="postRequestAPITest" data-provider="getTestData" finished-at="2021-06-22T20:05:22 AEST" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mask]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestAPITest -->
+        <test-method signature="validateCreatedUserThruPostAPITest()[pri:3, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:22 AEST" name="validateCreatedUserThruPostAPITest" finished-at="2021-06-22T20:05:24 AEST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedUserThruPostAPITest -->
+        <test-method signature="putRequestAPITest()[pri:4, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:24 AEST" name="putRequestAPITest" finished-at="2021-06-22T20:05:24 AEST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequestAPITest -->
+        <test-method signature="validateUpdatedUserThruPutAPITest()[pri:5, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:24 AEST" name="validateUpdatedUserThruPutAPITest" finished-at="2021-06-22T20:05:26 AEST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdatedUserThruPutAPITest -->
+        <test-method signature="putRequestToCreateDataAPITest()[pri:6, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:26 AEST" name="putRequestToCreateDataAPITest" finished-at="2021-06-22T20:05:28 AEST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequestToCreateDataAPITest -->
+        <test-method signature="blankDeleteKeyRequestAPITest()[pri:7, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:28 AEST" name="blankDeleteKeyRequestAPITest" finished-at="2021-06-22T20:05:29 AEST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankDeleteKeyRequestAPITest -->
+        <test-method signature="incorrectDeleteKeyRequestAPITest()[pri:8, instance:com.apitest.TC01_API_Test@67d48005]" started-at="2021-06-22T20:05:29 AEST" name="incorrectDeleteKeyRequestAPITest" finished-at="2021-06-22T20:05:31 AEST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectDeleteKeyRequestAPITest -->
+      </class> <!-- com.apitest.TC01_API_Test -->
+    </test> <!-- APITest -->
+  </suite> <!-- Suite -->
+</testng-results>

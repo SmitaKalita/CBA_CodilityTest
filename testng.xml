@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="10" verbose="3">
+	<listeners>
+		<listener class-name="com.utils.Listener" />
+	</listeners>
+	<test name="WebChromeTest">
+		<parameter name="Browser" value="Chrome" />
+		<groups>
+
+			<run>
+				<include name="smoke" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="webtests.TC01_WelcomePage" />
+			<class name="webtests.TC02_HomePage" />
+			<class name="webtests.TC03_BattleTakeABus" />
+			<class name="webtests.TC04_BattleGoToPublicPlace" />
+			<class name="webtests.TC05_BattleGoToOffice" />
+			<class name="webtests.TC06_LeaderBoard" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="WebFirefoxTest">
+		<parameter name="Browser" value="Firefox" />
+		<groups>
+
+			<run>
+				<include name="smoke" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="webtests.TC01_WelcomePage" />
+			<class name="webtests.TC02_HomePage" />
+			<class name="webtests.TC03_BattleTakeABus" />
+			<class name="webtests.TC04_BattleGoToPublicPlace" />
+			<class name="webtests.TC05_BattleGoToOffice" />
+			<class name="webtests.TC06_LeaderBoard" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="WebEdgeTest">
+		<parameter name="Browser" value="Edge" />
+		<groups>
+
+			<run>
+				<include name="regression" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="webtests.TC01_WelcomePage" />
+			<class name="webtests.TC02_HomePage" />
+			<class name="webtests.TC03_BattleTakeABus" />
+			<class name="webtests.TC04_BattleGoToPublicPlace" />
+			<class name="webtests.TC05_BattleGoToOffice" />
+			<class name="webtests.TC06_LeaderBoard" />
+		</classes>
+
+	</test> <!-- Test -->
+
+
+	<test name="APITest">
+		<groups>
+
+			<define name="regression">
+				<include name="regression" />
+				<include name="smoke" />
+			</define>
+
+			<run>
+				<include name="regression" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="com.apitest.TC01_API_Test" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

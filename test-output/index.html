@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\jogan\OneDrive\Documents\CBA_Codility_SK\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC01_WelcomePage" class="method navigator-link" hash-for-method="verifyStartJourneyOfAHero">verifyStartJourneyOfAHero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC06_LeaderBoard" class="method navigator-link" hash-for-method="answerSingleQAndCheckLeaderBoard">answerSingleQAndCheckLeaderBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="blankDeleteKeyRequestAPITest">blankDeleteKeyRequestAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="getRequestAPITest">getRequestAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="incorrectDeleteKeyRequestAPITest">incorrectDeleteKeyRequestAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="postRequestAPITest(Warrior, 1000.0)">postRequestAPITest(Warrior, 1000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="postRequestAPITest(Vaccine, 3000.0)">postRequestAPITest(Vaccine, 3000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="postRequestAPITest(Hero, 5000.0)">postRequestAPITest(Hero, 5000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="postRequestAPITest(Mask, 2000.0)">postRequestAPITest(Mask, 2000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="postRequestAPITest(Cure, 5000.0)">postRequestAPITest(Cure, 5000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="putRequestAPITest">putRequestAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="putRequestToCreateDataAPITest">putRequestToCreateDataAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="validateCreatedUserThruPostAPITest">validateCreatedUserThruPostAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.apitest.TC01_API_Test" class="method navigator-link" hash-for-method="validateUpdatedUserThruPutAPITest">validateUpdatedUserThruPutAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyAllBattleFieldsPresent">verifyAllBattleFieldsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyAllBattleFieldsPresent">verifyAllBattleFieldsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldGoToOfficeCanBeAccessed">verifyBattleFieldGoToOfficeCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldGoToOfficeCanBeAccessed">verifyBattleFieldGoToOfficeCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldGoToPublicPlaceCanBeAccessed">verifyBattleFieldGoToPublicPlaceCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldGoToPublicPlaceCanBeAccessed">verifyBattleFieldGoToPublicPlaceCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldTakeTheBusCanBeAccessed">verifyBattleFieldTakeTheBusCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyBattleFieldTakeTheBusCanBeAccessed">verifyBattleFieldTakeTheBusCanBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyHomePageHeader">verifyHomePageHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC02_HomePage" class="method navigator-link" hash-for-method="verifyHomePageHeader">verifyHomePageHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC01_WelcomePage" class="method navigator-link" hash-for-method="verifyStartJourneyOfAHero">verifyStartJourneyOfAHero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC01_WelcomePage" class="method navigator-link" hash-for-method="verifyWelcomePageTitle">verifyWelcomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="webtests.TC01_WelcomePage" class="method navigator-link" hash-for-method="verifyWelcomePageTitle">verifyWelcomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">webtests.TC01_WelcomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStartJourneyOfAHero">
+                  </a> <!-- verifyStartJourneyOfAHero -->
+                  <span class="method-name">verifyStartJourneyOfAHero</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Choose your battle field Web SK cmd] but found [Choose your battle field Web SK zsj]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at webtests.TC01_WelcomePage.verifyStartJourneyOfAHero(TC01_WelcomePage.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webtests.TC06_LeaderBoard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="answerSingleQAndCheckLeaderBoard">
+                  </a> <!-- answerSingleQAndCheckLeaderBoard -->
+                  <span class="method-name">answerSingleQAndCheckLeaderBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webtests.TC02_HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllBattleFieldsPresent">
+                  </a> <!-- verifyAllBattleFieldsPresent -->
+                  <span class="method-name">verifyAllBattleFieldsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllBattleFieldsPresent">
+                  </a> <!-- verifyAllBattleFieldsPresent -->
+                  <span class="method-name">verifyAllBattleFieldsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldGoToOfficeCanBeAccessed">
+                  </a> <!-- verifyBattleFieldGoToOfficeCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldGoToOfficeCanBeAccessed">
+                  </a> <!-- verifyBattleFieldGoToOfficeCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldGoToPublicPlaceCanBeAccessed">
+                  </a> <!-- verifyBattleFieldGoToPublicPlaceCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldGoToPublicPlaceCanBeAccessed">
+                  </a> <!-- verifyBattleFieldGoToPublicPlaceCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldTakeTheBusCanBeAccessed">
+                  </a> <!-- verifyBattleFieldTakeTheBusCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBattleFieldTakeTheBusCanBeAccessed">
+                  </a> <!-- verifyBattleFieldTakeTheBusCanBeAccessed -->
+                  <span class="method-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageHeader">
+                  </a> <!-- verifyHomePageHeader -->
+                  <span class="method-name">verifyHomePageHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageHeader">
+                  </a> <!-- verifyHomePageHeader -->
+                  <span class="method-name">verifyHomePageHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webtests.TC01_WelcomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStartJourneyOfAHero">
+                  </a> <!-- verifyStartJourneyOfAHero -->
+                  <span class="method-name">verifyStartJourneyOfAHero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWelcomePageTitle">
+                  </a> <!-- verifyWelcomePageTitle -->
+                  <span class="method-name">verifyWelcomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWelcomePageTitle">
+                  </a> <!-- verifyWelcomePageTitle -->
+                  <span class="method-name">verifyWelcomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apitest.TC01_API_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankDeleteKeyRequestAPITest">
+                  </a> <!-- blankDeleteKeyRequestAPITest -->
+                  <span class="method-name">blankDeleteKeyRequestAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequestAPITest">
+                  </a> <!-- getRequestAPITest -->
+                  <span class="method-name">getRequestAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectDeleteKeyRequestAPITest">
+                  </a> <!-- incorrectDeleteKeyRequestAPITest -->
+                  <span class="method-name">incorrectDeleteKeyRequestAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequestAPITest(Warrior, 1000.0)">
+                  </a> <!-- postRequestAPITest(Warrior, 1000.0) -->
+                  <span class="method-name">postRequestAPITest</span>
+                  <span class="parameters">(Warrior, 1000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequestAPITest(Vaccine, 3000.0)">
+                  </a> <!-- postRequestAPITest(Vaccine, 3000.0) -->
+                  <span class="method-name">postRequestAPITest</span>
+                  <span class="parameters">(Vaccine, 3000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequestAPITest(Hero, 5000.0)">
+                  </a> <!-- postRequestAPITest(Hero, 5000.0) -->
+                  <span class="method-name">postRequestAPITest</span>
+                  <span class="parameters">(Hero, 5000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequestAPITest(Mask, 2000.0)">
+                  </a> <!-- postRequestAPITest(Mask, 2000.0) -->
+                  <span class="method-name">postRequestAPITest</span>
+                  <span class="parameters">(Mask, 2000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequestAPITest(Cure, 5000.0)">
+                  </a> <!-- postRequestAPITest(Cure, 5000.0) -->
+                  <span class="method-name">postRequestAPITest</span>
+                  <span class="parameters">(Cure, 5000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putRequestAPITest">
+                  </a> <!-- putRequestAPITest -->
+                  <span class="method-name">putRequestAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putRequestToCreateDataAPITest">
+                  </a> <!-- putRequestToCreateDataAPITest -->
+                  <span class="method-name">putRequestToCreateDataAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreatedUserThruPostAPITest">
+                  </a> <!-- validateCreatedUserThruPostAPITest -->
+                  <span class="method-name">validateCreatedUserThruPostAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpdatedUserThruPutAPITest">
+                  </a> <!-- validateUpdatedUserThruPutAPITest -->
+                  <span class="method-name">validateUpdatedUserThruPutAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jogan\OneDrive\Documents\CBA_Codility_SK\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utils.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;WebChromeTest&quot; verbose=&quot;3&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webtests.TC01_WelcomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC02_HomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC03_BattleTakeABus&quot;/&gt;
+      &lt;class name=&quot;webtests.TC04_BattleGoToPublicPlace&quot;/&gt;
+      &lt;class name=&quot;webtests.TC05_BattleGoToOffice&quot;/&gt;
+      &lt;class name=&quot;webtests.TC06_LeaderBoard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebChromeTest --&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;WebFirefoxTest&quot; verbose=&quot;3&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webtests.TC01_WelcomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC02_HomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC03_BattleTakeABus&quot;/&gt;
+      &lt;class name=&quot;webtests.TC04_BattleGoToPublicPlace&quot;/&gt;
+      &lt;class name=&quot;webtests.TC05_BattleGoToOffice&quot;/&gt;
+      &lt;class name=&quot;webtests.TC06_LeaderBoard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebFirefoxTest --&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;WebEdgeTest&quot; verbose=&quot;3&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webtests.TC01_WelcomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC02_HomePage&quot;/&gt;
+      &lt;class name=&quot;webtests.TC03_BattleTakeABus&quot;/&gt;
+      &lt;class name=&quot;webtests.TC04_BattleGoToPublicPlace&quot;/&gt;
+      &lt;class name=&quot;webtests.TC05_BattleGoToOffice&quot;/&gt;
+      &lt;class name=&quot;webtests.TC06_LeaderBoard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebEdgeTest --&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;APITest&quot; verbose=&quot;3&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;regression&quot;&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/define&gt; &lt;!-- regression --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.apitest.TC01_API_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- APITest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WebChromeTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">WebFirefoxTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">WebEdgeTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">APITest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">api</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankDeleteKeyRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">incorrectDeleteKeyRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">postRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">putRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">putRequestToCreateDataAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateCreatedUserThruPostAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateUpdatedUserThruPutAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">answerSingleQAndCheckLeaderBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankDeleteKeyRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">incorrectDeleteKeyRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">postRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">putRequestAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">putRequestToCreateDataAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateCreatedUserThruPostAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateUpdatedUserThruPutAPITest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAllBattleFieldsPresent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyStartJourneyOfAHero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWelcomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">web</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">answerSingleQAndCheckLeaderBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAllBattleFieldsPresent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyStartJourneyOfAHero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWelcomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyStartJourneyOfAHero')
+data.setCell(0, 2, 'webtests.TC01_WelcomePage')
+data.setCell(0, 3, 75087);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHomePageHeader')
+data.setCell(1, 2, 'webtests.TC02_HomePage')
+data.setCell(1, 3, 64987);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'answerSingleQAndCheckLeaderBoard')
+data.setCell(2, 2, 'webtests.TC06_LeaderBoard')
+data.setCell(2, 3, 63517);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyHomePageHeader')
+data.setCell(3, 2, 'webtests.TC02_HomePage')
+data.setCell(3, 3, 61344);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyBattleFieldGoToPublicPlaceCanBeAccessed')
+data.setCell(4, 2, 'webtests.TC02_HomePage')
+data.setCell(4, 3, 60519);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyBattleFieldGoToOfficeCanBeAccessed')
+data.setCell(5, 2, 'webtests.TC02_HomePage')
+data.setCell(5, 3, 60500);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAllBattleFieldsPresent')
+data.setCell(6, 2, 'webtests.TC02_HomePage')
+data.setCell(6, 3, 60095);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAllBattleFieldsPresent')
+data.setCell(7, 2, 'webtests.TC02_HomePage')
+data.setCell(7, 3, 60091);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyBattleFieldGoToPublicPlaceCanBeAccessed')
+data.setCell(8, 2, 'webtests.TC02_HomePage')
+data.setCell(8, 3, 60074);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyBattleFieldTakeTheBusCanBeAccessed')
+data.setCell(9, 2, 'webtests.TC02_HomePage')
+data.setCell(9, 3, 60049);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyBattleFieldTakeTheBusCanBeAccessed')
+data.setCell(10, 2, 'webtests.TC02_HomePage')
+data.setCell(10, 3, 60048);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyBattleFieldGoToOfficeCanBeAccessed')
+data.setCell(11, 2, 'webtests.TC02_HomePage')
+data.setCell(11, 3, 60045);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyStartJourneyOfAHero')
+data.setCell(12, 2, 'webtests.TC01_WelcomePage')
+data.setCell(12, 3, 15447);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getRequestAPITest')
+data.setCell(13, 2, 'com.apitest.TC01_API_Test')
+data.setCell(13, 3, 5555);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyWelcomePageTitle')
+data.setCell(14, 2, 'webtests.TC01_WelcomePage')
+data.setCell(14, 3, 3053);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'postRequestAPITest')
+data.setCell(15, 2, 'com.apitest.TC01_API_Test')
+data.setCell(15, 3, 2950);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'postRequestAPITest')
+data.setCell(16, 2, 'com.apitest.TC01_API_Test')
+data.setCell(16, 3, 2716);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'putRequestToCreateDataAPITest')
+data.setCell(17, 2, 'com.apitest.TC01_API_Test')
+data.setCell(17, 3, 2420);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateCreatedUserThruPostAPITest')
+data.setCell(18, 2, 'com.apitest.TC01_API_Test')
+data.setCell(18, 3, 2243);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'postRequestAPITest')
+data.setCell(19, 2, 'com.apitest.TC01_API_Test')
+data.setCell(19, 3, 2085);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateUpdatedUserThruPutAPITest')
+data.setCell(20, 2, 'com.apitest.TC01_API_Test')
+data.setCell(20, 3, 1969);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'postRequestAPITest')
+data.setCell(21, 2, 'com.apitest.TC01_API_Test')
+data.setCell(21, 3, 1802);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'blankDeleteKeyRequestAPITest')
+data.setCell(22, 2, 'com.apitest.TC01_API_Test')
+data.setCell(22, 3, 1754);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'postRequestAPITest')
+data.setCell(23, 2, 'com.apitest.TC01_API_Test')
+data.setCell(23, 3, 1726);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'incorrectDeleteKeyRequestAPITest')
+data.setCell(24, 2, 'com.apitest.TC01_API_Test')
+data.setCell(24, 3, 1395);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyWelcomePageTitle')
+data.setCell(25, 2, 'webtests.TC01_WelcomePage')
+data.setCell(25, 3, 67);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'putRequestAPITest')
+data.setCell(26, 2, 'com.apitest.TC01_API_Test')
+data.setCell(26, 3, 23);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">36 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC05_BattleGoToOffice</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyGoToOfficeBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyGoToOfficeBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyGoToOfficeBattleField</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC06_LeaderBoard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">answerManyQAndCheckLeaderBoard</span>
+                <br/>
+                <span class="ignored-method-name">answerManyQAndCheckLeaderBoard</span>
+                <br/>
+                <span class="ignored-method-name">answerManyQAndCheckLeaderBoard</span>
+                <br/>
+                <span class="ignored-method-name">answerSingleQAndCheckLeaderBoard</span>
+                <br/>
+                <span class="ignored-method-name">answerSingleQAndCheckLeaderBoard</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC04_BattleGoToPublicPlace</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyTheGoToPublicPlaceBattle</span>
+                <br/>
+                <span class="ignored-method-name">verifyTheGoToPublicPlaceBattle</span>
+                <br/>
+                <span class="ignored-method-name">verifyTheGoToPublicPlaceBattle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC03_BattleTakeABus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyTheTakeTheBusBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyTheTakeTheBusBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyTheTakeTheBusBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyTimeUpModalTakeTheBusBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyTimeUpModalTakeTheBusBattleField</span>
+                <br/>
+                <span class="ignored-method-name">verifyTimeUpModalTakeTheBusBattleField</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC02_HomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                <br/>
+                <span class="ignored-method-name">verifyAllBattleFieldsPresent</span>
+                <br/>
+                <span class="ignored-method-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                <br/>
+                <span class="ignored-method-name">verifyHomePageHeader</span>
+                <br/>
+                <span class="ignored-method-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                <br/>
+                <span class="ignored-method-name">verifyAllHomePageTickerItemsPresent</span>
+                <br/>
+                <span class="ignored-method-name">verifyAllHomePageTickerItemsPresent</span>
+                <br/>
+                <span class="ignored-method-name">verifyAllHomePageTickerItemsPresent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webtests.TC01_WelcomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarrior</span>
+                <br/>
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarrior</span>
+                <br/>
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarrior</span>
+                <br/>
+                <span class="ignored-method-name">verifyStartJourneyOfAHero</span>
+                <br/>
+                <span class="ignored-method-name">verifyWelcomePageTitle</span>
+                <br/>
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarriorAsGuest</span>
+                <br/>
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarriorAsGuest</span>
+                <br/>
+                <span class="ignored-method-name">verifySuccessfulCreationOfWarriorAsGuest</span>
+                <br/>
+                <span class="ignored-method-name">verifyWelcomePageHeader</span>
+                <br/>
+                <span class="ignored-method-name">verifyWelcomePageHeader</span>
+                <br/>
+                <span class="ignored-method-name">verifyWelcomePageHeader</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC06_LeaderBoard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(Edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apitest.TC01_API_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRequestAPITest</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(Firefox)</span>
+                <span class="method-start">173 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apitest.TC01_API_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postRequestAPITest(Warrior, 1000.0)</span>
+                <span class="method-start">6621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageHeader</span>
+                <span class="method-start">7170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC06_LeaderBoard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">answerSingleQAndCheckLeaderBoard</span>
+                <span class="method-start">8111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apitest.TC01_API_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postRequestAPITest(Hero, 5000.0)</span>
+                <span class="method-start">9341 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageHeader</span>
+                <span class="method-start">10801 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apitest.TC01_API_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postRequestAPITest(Cure, 5000.0)</span>
+                <span class="method-start">11428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postRequestAPITest(Vaccine, 3000.0)</span>
+                <span class="method-start">14379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postRequestAPITest(Mask, 2000.0)</span>
+                <span class="method-start">16182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCreatedUserThruPostAPITest</span>
+                <span class="method-start">17909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putRequestAPITest</span>
+                <span class="method-start">20154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpdatedUserThruPutAPITest</span>
+                <span class="method-start">20178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putRequestToCreateDataAPITest</span>
+                <span class="method-start">22148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">blankDeleteKeyRequestAPITest</span>
+                <span class="method-start">24571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectDeleteKeyRequestAPITest</span>
+                <span class="method-start">26326 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC01_WelcomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(Firefox)</span>
+                <span class="method-start">72147 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(Chrome)</span>
+                <span class="method-start">72158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyWelcomePageTitle</span>
+                <span class="method-start">77741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWelcomePageTitle</span>
+                <span class="method-start">80727 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAllBattleFieldsPresent</span>
+                <span class="method-start">80795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllBattleFieldsPresent</span>
+                <span class="method-start">80795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                <span class="method-start">140887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldTakeTheBusCanBeAccessed</span>
+                <span class="method-start">140893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                <span class="method-start">200938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldGoToPublicPlaceCanBeAccessed</span>
+                <span class="method-start">200942 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC01_WelcomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStartJourneyOfAHero</span>
+                <span class="method-start">261014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyStartJourneyOfAHero</span>
+                <span class="method-start">261463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webtests.TC02_HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                <span class="method-start">277578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBattleFieldGoToOfficeCanBeAccessed</span>
+                <span class="method-start">336551 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

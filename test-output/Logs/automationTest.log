@@ -1,0 +1,137 @@
+[ERROR] 2021-06-22 22:21:39.167 [TestNG-tests-4] SetUpReporting - APITest: error while performing put request APITest-PutRequestValidation
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because "com.apitest.TC01_API_Test.test" is null
+	at com.apitest.TC01_API_Test.putRequestAPITest(TC01_API_Test.java:119) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+[ERROR] 2021-06-22 22:22:30.584 [TestNG-tests-3] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //a[contains(text(),'Start your journey')] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Start your journey')] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+[ERROR] 2021-06-22 22:22:30.632 [TestNG-tests-3] SetUpReporting - Error while running test: answerSingleQAndCheckLeaderBoard
+[ERROR] 2021-06-22 22:22:31.123 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //a[contains(text(),'Start your journey')] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Start your journey')] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+[ERROR] 2021-06-22 22:22:31.140 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //a[contains(text(),'Start your journey')] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Start your journey')] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+[ERROR] 2021-06-22 22:22:31.150 [TestNG-tests-2] SetUpReporting - Error while running test: verifyHomePageHeader
+[ERROR] 2021-06-22 22:22:31.161 [TestNG-tests-1] SetUpReporting - Error while running test: verifyHomePageHeader
+[ERROR] 2021-06-22 22:23:39.876 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='news'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='news'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:23:39.885 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='news'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='news'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:23:39.890 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='news'] and error is: Unable to locate element: //*[@id='news']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='news']}
+[ERROR] 2021-06-22 22:23:39.891 [TestNG-tests-2] SetUpReporting - Error while running test: verifyAllBattleFieldsPresent
+[ERROR] 2021-06-22 22:23:39.893 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='news'] and error is: Unable to locate element: //*[@id='news']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='news']}
+[ERROR] 2021-06-22 22:23:39.894 [TestNG-tests-1] SetUpReporting - Error while running test: verifyAllBattleFieldsPresent
+[ERROR] 2021-06-22 22:24:39.928 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='bus'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='bus'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:24:39.934 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='bus'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='bus'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:24:39.938 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='bus'] and error is: Unable to locate element: //*[@id='bus']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='bus']}
+[ERROR] 2021-06-22 22:24:39.940 [TestNG-tests-2] SetUpReporting - Error while running test: verifyBattleFieldTakeTheBusCanBeAccessed
+[ERROR] 2021-06-22 22:24:39.945 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='bus'] and error is: Unable to locate element: //*[@id='bus']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='bus']}
+[ERROR] 2021-06-22 22:24:39.946 [TestNG-tests-1] SetUpReporting - Error while running test: verifyBattleFieldTakeTheBusCanBeAccessed
+[ERROR] 2021-06-22 22:25:40.004 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='restaurant'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='restaurant'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:25:40.016 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='restaurant'] and error is: Unable to locate element: //*[@id='restaurant']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='restaurant']}
+[ERROR] 2021-06-22 22:25:40.017 [TestNG-tests-2] SetUpReporting - Error while running test: verifyBattleFieldGoToPublicPlaceCanBeAccessed
+[ERROR] 2021-06-22 22:25:40.457 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='restaurant'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='restaurant'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:25:40.464 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='restaurant'] and error is: Unable to locate element: //*[@id='restaurant']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='restaurant']}
+[ERROR] 2021-06-22 22:25:40.465 [TestNG-tests-1] SetUpReporting - Error while running test: verifyBattleFieldGoToPublicPlaceCanBeAccessed
+[ERROR] 2021-06-22 22:26:55.545 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.id: worrior_username and error is: Expected condition failed: waiting for element to be clickable: By.id: worrior_username (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:26:55.552 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while finding element: By.id: worrior_username and error is: Unable to locate element: #worrior_username
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 22876, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da4f2c2b-5ca7-4386-b8d8-b2fc41e5a1a2
+*** Element info: {Using=id, value=worrior_username}
+[ERROR] 2021-06-22 22:26:55.554 [TestNG-tests-1] SetUpReporting - Error while running test: verifyStartJourneyOfAHero
+[ERROR] 2021-06-22 22:26:56.617 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='office'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='office'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:26:56.628 [TestNG-tests-2] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='office'] and error is: Unable to locate element: //*[@id='office']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='office']}
+[ERROR] 2021-06-22 22:26:56.628 [TestNG-tests-2] SetUpReporting - Error while running test: verifyBattleFieldGoToPublicPlaceCanBeAccessed
+[ERROR] 2021-06-22 22:27:56.046 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while waiting for an element: By.xpath: //*[@id='office'] and error is: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='office'] (tried for 60 second(s) with 500 milliseconds interval)
+[ERROR] 2021-06-22 22:27:56.055 [TestNG-tests-1] SetUpReporting - WEBTest: Error occured while finding element: By.xpath: //*[@id='office'] and error is: Unable to locate element: //*[@id='office']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IB7CFDB', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 24040, moz:profile: C:\Users\jogan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf2af3e-a543-4a0c-881a-01ae304736bc
+*** Element info: {Using=xpath, value=//*[@id='office']}
+[ERROR] 2021-06-22 22:27:56.056 [TestNG-tests-1] SetUpReporting - Error while running test: verifyBattleFieldGoToPublicPlaceCanBeAccessed
