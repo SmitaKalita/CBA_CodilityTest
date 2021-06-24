@@ -171,6 +171,7 @@ public class TC01_API_Test extends apiBaseClass {
 			request.put("score", conscore);
 
 			ExtentTS.getInstance().getExtent().info("New username created successfully as: "+ conuser+ " with score of "+conscore);
+			ExtentTS.getInstance().getExtent().info("Running put request with a new username, to create a user");
 			given()
 			.header("content-type","application/json")
 			.body(request.toJSONString())
