@@ -116,7 +116,7 @@ public class TC01_API_Test extends apiBaseClass {
 			JSONObject request = new JSONObject();
 			request.put("username", conuser);
 			request.put("score", conscore);
-			test.info("Data updated from the put request " + conuser + " with score " + conscore );
+			ExtentTS.getInstance().getExtent().info("Data updated from the put request " + conuser + " with score " + conscore );
 			given()
 			.header("content-type","application/json")
 			.body(request.toJSONString())

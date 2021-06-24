@@ -12,7 +12,7 @@ public class OfficeBattleFieldPage extends BasePage{
 
 	private By officeBattleField = By.id("office_intro_modal");
 	private By startOfficeBattlefield = By.id("start");
-	private By startOfficeHeaderModal = By.xpath("//h5[text()='You are seated at a restaurant..']");
+	private By startOfficeHeaderModal = By.xpath("//h5[text()='You have entered the office..']");
 	private By officeHeader = By.id("restaurant_title");
 	private By ofcTryNextBattleButton = By.id("close_correct_modal_btn");
 	private By busAnswerOne = By.id("office_answer_1");
