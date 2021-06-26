@@ -14,7 +14,7 @@ public class apiBaseClass extends SetUpReporting {
 	public String deleteURI = readconfig.getDeleteURI();
 	public String APITestDataPath = readconfig.getAPITestDataPath();
 	public static String conuser;
-	public static int conscore = 1550;
+	public static int conscore = 1604;
 
 	
 
