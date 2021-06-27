@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BasePage extends Page {
 
-	public BasePage(WebDriver driver) {
+	public BasePage(WebDriver driver) {  //Constructor is created to initialize the page class drivers
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
@@ -62,7 +62,7 @@ public class BasePage extends Page {
 	public void waitForElementPresent(By locator) {
 		try
 		{
-			wait.until(ExpectedConditions.elementToBeClickable(locator));
+			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 
 		}
 		catch(Exception e)

@@ -12,10 +12,10 @@ import com.utils.SetUpReporting;
 public abstract class Page extends SetUpReporting{
 	
     
-	WebDriver driver;
-	WebDriverWait wait;
+	WebDriver driver;// initialize the driver
+	WebDriverWait wait; // used for explicit wait 
 	
-	public Page(WebDriver driver) {
+	public Page(WebDriver driver) {    //constructor is created to initialize the drivers
 		this.driver = driver;
 		this.wait = new WebDriverWait(this.driver, 60);
 	}
@@ -25,9 +25,10 @@ public abstract class Page extends SetUpReporting{
 	public abstract String getPageTitle();
 	public abstract String getTextOfElement(By locator);
 	public abstract WebElement getElement(By locator);
-	public abstract List<WebElement> getElements(By locator);
+	public abstract List<WebElement> getElements(By locator);//find elements
 	public abstract void waitForElementPresent(By locator);
 	
+	//RETURN A NEW PAGE
 	
 	public <TPage extends BasePage> TPage getInstance(Class<TPage> pageClass) {
 	

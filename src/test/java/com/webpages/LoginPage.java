@@ -18,7 +18,7 @@ public class LoginPage extends BasePage{
 	}
 
 	public WebElement getWarriorNameEle() {
-		return getElement(warriorName) ;
+		return getElement(warriorName) ; // calling getElement method from the base page 
 	}
 
 

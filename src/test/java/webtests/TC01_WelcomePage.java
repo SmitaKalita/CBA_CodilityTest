@@ -100,7 +100,7 @@ public class TC01_WelcomePage extends BaseTest{
 	{
 		try {
 			ExtentTS.getInstance().getExtent().info("User assigned with no username");
-			page.getInstance(LoginPage.class).createWarrior();
+			page.getInstance(LoginPage.class).createWarrior(); //getInstance method is called from the page class
 			ExtentTS.getInstance().getExtent().info("User created with username as guest");
 			String expStatusMsg = "Start your journey guest";
 			String actStatusMsg = page.getInstance(LoginPage.class).getWPElementText();
